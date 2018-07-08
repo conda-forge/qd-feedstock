@@ -35,7 +35,7 @@ test:
 about:
   home: http://crd-legacy.lbl.gov/~dhbailey/mpdist/
   license:  LBNL-BSD
-  license_file: COPYING
+  license_file: qd-{{ version }}/COPYING
   summary: A C++/Fortran-90 double-double and quad-double package
 
 extra:
