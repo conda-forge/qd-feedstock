@@ -18,7 +18,7 @@ requirements:
     - {{ compiler('fortran') }}
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
-  host:
+  host: []
   run:
 
 test:
