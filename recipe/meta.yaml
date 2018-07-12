@@ -1,4 +1,4 @@
-{% set version = "2.3.17" %}
+{% set version = "2.3.20" %}
 
 package:
   name: qd
@@ -7,11 +7,11 @@ package:
 source:
   fn: qd-{{ version }}.tar.gz
   url: http://crd.lbl.gov/~dhbailey/mpdist/qd-{{ version }}.tar.gz
-  sha256: c58e276f6fcf5f2f442c525f3de42ea00004734572b29c74028bbda0ad81096d
+  sha256: 72900ae5d3047719624701878abd8ed88fe3e4bc844c6fd614161ad926518385
 
 build:
   skip: true  # [win]
-  number: 2
+  number: 0
 
 requirements:
   build:
