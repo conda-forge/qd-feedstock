@@ -9,7 +9,7 @@ channel_sources:
 channel_targets:
 - conda-forge gcc7
 cxx_compiler:
-- clanggxx
+- clangxx
 fortran_compiler:
 - gfortran
 macos_machine:
