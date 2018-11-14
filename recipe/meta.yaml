@@ -7,7 +7,7 @@ package:
 source:
   fn: qd-{{ version }}.tar.gz
   url: http://crd.lbl.gov/~dhbailey/mpdist/qd-{{ version }}.tar.gz
-  sha256: ac99d0af29a30bb32968134bc7840378ef5b9f1e3e7d50c34c206f5810386241
+  sha256: 268e89ac68d21bebfba279fec2b82b18686509b020cd9a1868dcaac5e46fef72
 
 build:
   skip: true  # [win]
