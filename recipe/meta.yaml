@@ -11,7 +11,9 @@ source:
 
 build:
   skip: true  # [win]
-  number: 1001
+  number: 1002
+  run_exports:
+    - {{ pin_subpackage("qd", max_pin="x.x") }}
 
 requirements:
   build:
