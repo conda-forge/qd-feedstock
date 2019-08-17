@@ -6,8 +6,8 @@ package:
 
 source:
   fn: qd-{{ version }}.tar.gz
-  url: http://crd.lbl.gov/~dhbailey/mpdist/qd-{{ version }}.tar.gz
-  sha256: 268e89ac68d21bebfba279fec2b82b18686509b020cd9a1868dcaac5e46fef72
+  url: https://www.davidhbailey.com/dhbsoftware/qd-{{ version }}.tar.gz
+  sha256: 30c1ffe46b95a0e9fa91085949ee5fca85f97ff7b41cd5fe79f79bab730206d3
 
 build:
   skip: true  # [win]
