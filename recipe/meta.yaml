@@ -21,6 +21,11 @@ requirements:
     - {{ compiler('fortran') }}
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
+    - make
+    - automake
+    - libtool
+    - autoconf
+    - m4
   host: []
   run:
 
