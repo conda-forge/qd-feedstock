@@ -3,7 +3,7 @@
 export LDFLAGS=$(echo "${LDFLAGS}" | sed "s/-Wl,-dead_strip_dylibs//g")
 export LDFLAGS=$(echo "${LDFLAGS}" | sed "s/-Wl,--as-needed//g")
 
-autoreconf -i
+autoreconf -fi
 chmod +x configure
 
 ./configure --prefix=${PREFIX} --enable-shared --host=$HOST || (cat config.log; false)
