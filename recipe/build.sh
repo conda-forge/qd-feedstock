@@ -9,5 +9,5 @@ chmod +x configure
 ./configure --prefix=${PREFIX} --enable-shared --host=$HOST || (cat config.log; false)
 
 make -j${CPU_COUNT}
-make check
+make check || (cat tests/test-suite.log; false)
 make install
