@@ -1,4 +1,4 @@
-{% set version = "2.3.22" %}
+{% set version = "2.3.24" %}
 
 package:
   name: qd
@@ -7,12 +7,12 @@ package:
 source:
   fn: qd-{{ version }}.tar.gz
   url: https://www.davidhbailey.com/dhbsoftware/qd-{{ version }}.tar.gz
-  sha256: 629f20815f81683aef9ff056646aca844872afc1aec29c3a8719da64f753659e
+  sha256: e9e243c7128c7220a07c55f6ee350f790ce75fe8681c704f342f7a973f0199f5
 
 
 build:
   skip: true  # [win]
-  number: 1004
+  number: 0
   run_exports:
     - {{ pin_subpackage("qd", max_pin="x.x") }}
 
@@ -42,7 +42,7 @@ test:
 
 about:
   home: http://crd-legacy.lbl.gov/~dhbailey/mpdist/
-  license:  LBNL-BSD
+  license: LBNL-BSD
   license_file: COPYING
   summary: A C++/Fortran-90 double-double and quad-double package
 
